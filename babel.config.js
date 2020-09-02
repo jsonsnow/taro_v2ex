@@ -9,5 +9,8 @@ module.exports = {
         ts: true
       }
     ]
-  ]
+  ],
+  resolve: {
+    extensions: ['.ts', '.tsx']
+  }
 }

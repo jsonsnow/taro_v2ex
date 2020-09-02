@@ -9,7 +9,7 @@ const GET_REPLIES = 'replies/show.json'
 // 获取用户信息
 const GET_USERINFO = 'members/show.json'
 
-function queryString(obj?: Object): String {
+function queryString(obj?: Object): string {
   if (!obj) {
     return ''
   }
@@ -23,11 +23,11 @@ function queryString(obj?: Object): String {
   )
 }
 
-function getAllNode(): String {
+function getAllNode(): string {
   return HOST_URI + ALL_NODE
 }
 
-function getNodeInfo(o?: Object): String {
+function getNodeInfo(o?: Object): string {
   return HOST_URI + NODE_INFO + queryString(o)
 }
 
@@ -35,15 +35,15 @@ function getHostNodes(): string {
   return HOST_URI + HOT_TOPIC
 }
 
-function getLatestTopic(o?: Object): String {
+function getLatestTopic(o?: Object): string {
   return HOST_URI + LATEST_TOPIC + queryString(o)
 }
 
-function getReplies(o?: Object): String {
+function getReplies(o?: Object): string {
   return HOST_URI + GET_REPLIES + queryString(o)
 }
 
-function getTopics(o?: Object): String {
+function getTopics(o?: Object): string {
   return HOST_URI + GET_TOPICS + queryString(o)
 }
 

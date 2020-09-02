@@ -1,3 +1,7 @@
 module.exports = {
-  'extends': ['taro/react']
+  'extends': ['taro/react'],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }

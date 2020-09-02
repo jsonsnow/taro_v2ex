@@ -1,5 +1,5 @@
 import { eventCenter } from '@tarojs/taro'
-import timeago from 'timeago.js' 
+import timeago from 'timeago.js'
 import { IThread } from '../interfaces/thread'
 
 // tslint:disable-next-line
